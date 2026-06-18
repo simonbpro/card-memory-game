@@ -1,0 +1,13 @@
+.header {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(85, 83, 255);
+}
+
+.header p {
+    font-family: "Montserrat", sans-serif;
+    justify-content: center;
+    font-size: 25px;
+    cursor: pointer;
+    color: white;
+}
