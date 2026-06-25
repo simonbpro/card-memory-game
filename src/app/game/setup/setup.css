@@ -1,0 +1,36 @@
+/* SETUP styling */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 150px) ;
+    gap:20px;
+    justify-content:center;
+}
+.time-button{
+    display: flex;
+    justify-content: center;
+}
+.time-button p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    color: rgb(230, 11, 11);
+    background-color: white;
+    padding: 10px;
+    border: 1px solid rgb(230, 11, 11);
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top:30px;
+    margin-bottom: 30px;
+}
+@media (max-width: 600px) {
+    .grid {
+       grid-template-columns: repeat(2, 150px);
+    }
+}
+
+
+
+
+
+
+
+

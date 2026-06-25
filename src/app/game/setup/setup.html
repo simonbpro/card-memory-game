@@ -1,1 +1,15 @@
-<p>setup works!</p>
+<!-- displays the cards to play-->
+<div>
+    <div class="time-button">
+        <p>Time Left : {{this.timeLeft}}s</p>
+    </div>
+
+    <div class="grid">
+        @for (card of cards; track $index){
+        <app-card [cardModel]="card" (cardClicked)="handleCardClick($index)">
+        </app-card>
+        }
+
+
+    </div>
+</div>
